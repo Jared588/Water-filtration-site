@@ -11,7 +11,7 @@ export function Calculator() {
 
     return (
         <div className="flex flex-col w-full gap-5">
-            <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem] pb-20 pt-10 text-center">
+            <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem] pb-20 pt-6 text-center">
                 Cost <span className="text-blue-600">Calculator</span>
             </h1>
             <div className="flex flex-wrap gap-10 justify-center ">
@@ -29,7 +29,7 @@ export function Calculator() {
                 </div>
                 <svg className="fill-blue-300 max-w-52" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>water</title><path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" /></svg>
             </div>
-            <div className="flex flex-col sm:flex-row w-full justify-evenly pt-20 gap-y-10">
+            <div className="flex flex-col sm:flex-row w-full justify-evenly pt-14 gap-y-10">
                 <div className="flex flex-col text-center">
                     <p className="text-lg">You&apos;re currently paying:</p>
                     <p className="text-3xl text-blue-400">
