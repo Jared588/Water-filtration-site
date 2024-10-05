@@ -16,12 +16,12 @@ export function Calculator() {
                     <div className="flex flex-col sm:items-end items-center">
                         <h3>Price per litre:</h3>
                         <p className="text-blue-400">R{clientPrice.toFixed(2)}</p>
-                        <Slider defaultValue={[0.25]} max={2.00} min={0.01} step={0.01} onValueChange={(val) => setClientPrice(val[0])} className="w-60 py-4" />
+                        <Slider defaultValue={[0.25]} max={2.00} min={0.01} step={0.01} onValueChange={(val) => setClientPrice(val[0] ?? 0)} className="w-60 py-4" />
                     </div>
                     <div className="flex flex-col sm:items-end items-center">
                         <h3>Weekly Usage:</h3>
                         <p className="text-blue-400">{amount} litres</p>
-                        <Slider defaultValue={[750]} max={5000} min={50} step={1} onValueChange={(val) => setAmount(val[0])} className="w-60 py-4" />
+                        <Slider defaultValue={[750]} max={5000} min={50} step={1} onValueChange={(val) => setAmount(val[0] ?? 0)} className="w-60 py-4" />
                     </div>
                 </div>
                 <svg className="fill-blue-300 max-w-52" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>water</title><path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" /></svg>
