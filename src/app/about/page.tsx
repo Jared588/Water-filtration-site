@@ -46,6 +46,41 @@ export default function About() {
             </p>
           </div>
         </div>
+        <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+          <div className="bg-slate-500 bg-opacity-15 p-6 rounded-xl">
+            <h2 className="text-4xl pb-4 text-blue-500">What We Do?</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+            </p>
+          </div>
+          <div className="bg-slate-500 bg-opacity-15 p-6 rounded-xl">
+            <h2 className="text-4xl pb-4 text-blue-500">How We Do It?</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+            </p>
+          </div>
+          <div className="bg-slate-500 bg-opacity-15 p-6 rounded-xl">
+            <h2 className="text-4xl pb-4 text-blue-500">How We Can Help?</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+            </p>
+          </div>
+        </div>
         <div className="flex flex-col text-center gap-y-4">
           <h1 className="text-5xl text-blue-300 pb-4">Contact Us</h1>
           <p>📍 123 Aqua Street</p>
