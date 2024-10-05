@@ -5,9 +5,9 @@ import { Slider } from "~/components/ui/slider"
 
 
 export function Calculator() {
-    const [clientPrice, setClientPrice] = useState(0.35);
+    const [clientPrice, setClientPrice] = useState(0.45);
     const [amount, setAmount] = useState(750);
-    const [companyPrice, setCompanyPrice] = useState(0.30);
+    const [companyPrice, setCompanyPrice] = useState(0.25);
 
     return (
         <div className="flex flex-col w-full gap-5">
