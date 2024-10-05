@@ -6,8 +6,8 @@ export default function CalculatorPage() {
     <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#262e52] to-[#254764] text-white">
       <Header />
       <Calculator />
-      <div className="flex flex-col md:flex-row text-center gap-x-20 gap-y-10 p-16 pb-16">
-          <div className="rounded-xl bg-slate-500 bg-opacity-15 p-6">
+      <div className="flex flex-col md:flex-row text-center gap-x-20 gap-y-10 md:p-16 md:pb-16 pt-16">
+          <div className="md:rounded-xl bg-slate-500 bg-opacity-15 p-6">
             <h2 className="pb-4 text-4xl text-blue-500">How Are Costs Calculated?</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
