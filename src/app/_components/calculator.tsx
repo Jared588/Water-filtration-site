@@ -39,7 +39,7 @@ export function Calculator() {
                     <p>per week</p>
                 </div>
                 <div className="flex flex-col text-center">
-                    <p className="text-lg">Switching to H20-Awesome</p>
+                    <p className="text-lg">Switching to H2Open</p>
                     <p className="text-3xl text-blue-400">
                         R{(companyPrice * amount)
                         .toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}

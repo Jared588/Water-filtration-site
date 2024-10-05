@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <div className="flex w-full items-center justify-between p-8 text-white">
       <h1 className="text-2xl font-medium tracking-tighter md:text-3xl">
-        H20-Awesome
+        H2Open
       </h1>
 
       {/* Menu Icon - Visible on mobile */}
