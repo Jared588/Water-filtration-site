@@ -1,6 +1,3 @@
-import Link from "next/link";
-
-import { api, HydrateClient } from "~/trpc/server";
 import Header from "../_components/header";
 import { Calculator } from "../_components/calculator";
 
