@@ -10,7 +10,7 @@ export default async function Home() {
         <Header />
         <div className="flex flex-col flex-grow items-center justify-center pt-20 pb-36 md:pt-40 md:pb-64">
           <h1 className="w-2/3 text-center text-5xl font-extrabold tracking-tight leading-tight sm:text-[4rem] md:text-[5rem]">
-            The <span className="text-blue-600">Future</span> Of Your
+            The <span className="text-blue-600">Future</span> Of Your {" "}
             <span className="text-blue-600">Water</span> Supply
           </h1>
           <div className="flex gap-x-4 pt-6">
