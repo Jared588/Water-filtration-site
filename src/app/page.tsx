@@ -8,9 +8,9 @@ export default async function Home() {
     <HydrateClient>
       <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#262e52] to-[#254764] text-white">
         <Header />
-        <div className="flex flex-col flex-grow items-center justify-center min-h-[80vh]">
+        <div className="flex flex-col flex-grow items-center justify-center pt-40 pb-64">
           <h1 className="w-2/3 text-center text-5xl font-extrabold tracking-tight leading-tight sm:text-[4rem] md:text-[5rem]">
-            The <span className="text-blue-600">Future</span> Of Your{" "}
+            The <span className="text-blue-600">Future</span> Of Your
             <span className="text-blue-600">Water</span> Supply
           </h1>
           <div className="flex gap-x-4 pt-6">
@@ -22,7 +22,7 @@ export default async function Home() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center">
+        <div className="flex flex-col md:flex-row items-center justify-center mt-[-160px]">
           <div className="md:w-2/5 rounded-xl p-6">
             <h2 className="pb-6 text-4xl text-blue-500">
               We value quality without compromising on affordabilty
