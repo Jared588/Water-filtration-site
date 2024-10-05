@@ -27,7 +27,7 @@ export function Calculator() {
                         <Slider defaultValue={[750]} max={5000} min={50} step={1} onValueChange={(val) => setAmount(val[0] ?? 0)} className="w-60 py-4" />
                     </div>
                 </div>
-                <svg className="fill-blue-300 max-w-52" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>water</title><path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" /></svg>
+                <svg className="fill-blue-300 w-52" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>water</title><path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" /></svg>
             </div>
             <div className="flex flex-col sm:flex-row w-full justify-evenly pt-14 gap-y-10">
                 <div className="flex flex-col text-center">
