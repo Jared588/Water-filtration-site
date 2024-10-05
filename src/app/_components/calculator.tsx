@@ -29,18 +29,27 @@ export function Calculator() {
             <div className="flex flex-col sm:flex-row w-full justify-evenly pt-20 gap-y-10">
                 <div className="flex flex-col text-center">
                     <p className="text-lg">You&apos;re currently paying:</p>
-                    <p className="text-3xl text-blue-400">R{(clientPrice * amount).toFixed(2)}</p>
+                    <p className="text-3xl text-blue-400">
+                        R{(clientPrice * amount)
+                        .toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                    </p>
                     <p>per week</p>
                 </div>
                 <div className="flex flex-col text-center">
                     <p className="text-lg">Switching to H20-Awesome</p>
-                    <p className="text-3xl text-blue-400">R{(companyPrice * amount).toFixed(2)}</p>
+                    <p className="text-3xl text-blue-400">
+                        R{(companyPrice * amount)
+                        .toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                    </p>
                     <p>per week</p>
                 </div>
             </div>
             <div className="flex flex-col text-center pt-5">
                 <p className="text-lg">Annual Savings:</p>
-                <p className="text-3xl text-blue-400">R{((clientPrice * amount * 54) - (companyPrice * amount * 54)).toFixed(2)}</p>
+                <p className="text-3xl text-blue-400">
+                    R{((clientPrice * amount * 54) - (companyPrice * amount * 54))
+                    .toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                </p>
             </div>
             <div></div>
         </div>
