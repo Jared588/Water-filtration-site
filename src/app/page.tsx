@@ -8,7 +8,7 @@ export default async function Home() {
     <HydrateClient>
       <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#262e52] to-[#254764] text-white">
         <Header />
-        <div className="flex flex-col flex-grow items-center justify-center pt-40 pb-64">
+        <div className="flex flex-col flex-grow items-center justify-center pt-20 pb-36 md:pt-40 md:pb-64">
           <h1 className="w-2/3 text-center text-5xl font-extrabold tracking-tight leading-tight sm:text-[4rem] md:text-[5rem]">
             The <span className="text-blue-600">Future</span> Of Your
             <span className="text-blue-600">Water</span> Supply
