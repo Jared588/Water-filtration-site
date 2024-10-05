@@ -11,6 +11,9 @@ export function Calculator() {
 
     return (
         <div className="flex flex-col w-full gap-5">
+            <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem] pb-20 pt-10 text-center">
+                Cost <span className="text-blue-600">Calculator</span>
+            </h1>
             <div className="flex flex-wrap gap-10 justify-center ">
                 <div className="flex flex-col justify-center content-center items-center gap-y-6">
                     <div className="flex flex-col sm:items-end items-center">
