@@ -51,7 +51,7 @@ export default function Header() {
       >
         <div className="flex items-center justify-between p-6">
           <h1 className="text-2xl font-medium tracking-tighter text-white">
-            H20-Awesome
+            H20pen
           </h1>
           {/* Close Menu Button */}
           <button onClick={toggleMenu} className="text-white">
