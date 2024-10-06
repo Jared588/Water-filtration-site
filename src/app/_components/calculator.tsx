@@ -14,8 +14,8 @@ export function Calculator() {
             <h1 className="text-5xl font-extrabold tracking-tight lg:text-[5rem] pb-20 pt-6 px-10 text-center">
                 Cost <span className="text-blue-600">Calculator</span>
             </h1>
-            <div className="flex flex-wrap gap-10 justify-center ">
-                <div className="flex flex-col justify-center content-center items-center gap-y-6 px-10 sm:px-0">
+            <div className="flex flex-col sm:flex-row items-center flex-wrap gap-10 justify-center ">
+                <div className="flex flex-col justify-center content-center items-center gap-y-6">
                     <div className="flex flex-col sm:items-end items-center">
                         <h3>Price per litre:</h3>
                         <p className="text-blue-400">R{clientPrice.toFixed(2)}</p>
