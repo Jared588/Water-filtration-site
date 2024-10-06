@@ -14,9 +14,11 @@ export default function Header() {
 
   return (
     <div className="flex w-full items-center justify-between p-8 text-white">
-      <h1 className="text-2xl font-medium tracking-tighter md:text-3xl">
-        H2Open
-      </h1>
+      <Link href={"/"}>
+        <h1 className="text-2xl font-medium tracking-tighter md:text-3xl">
+          H2Open
+        </h1>
+      </Link>
 
       {/* Menu Icon - Visible on mobile */}
       <button onClick={toggleMenu} className="sm:hidden">
@@ -50,9 +52,11 @@ export default function Header() {
         } transition-transform duration-300 ease-in-out sm:hidden`}
       >
         <div className="flex items-center justify-between p-6">
-          <h1 className="text-2xl font-medium tracking-tighter text-white">
-            H20pen
-          </h1>
+          <Link href={"/"} onClick={toggleMenu}>
+            <h1 className="text-2xl font-medium tracking-tighter text-white">
+              H20pen
+            </h1>
+          </Link>
           {/* Close Menu Button */}
           <button onClick={toggleMenu} className="text-white">
             <svg
