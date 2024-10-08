@@ -25,7 +25,7 @@ export default async function Home() {
         <div className="flex flex-col md:flex-row items-center justify-center mt-[-160px]">
           <div className="md:w-2/5 rounded-xl p-6">
             <h2 className="pb-6 text-4xl text-blue-500">
-              We value quality without compromising on affordabilty
+              We value quality without compromising on affordability
             </h2>
             <p className="text-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
